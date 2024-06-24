@@ -73,8 +73,8 @@ class AlarmForegroundService : Service() {
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
         )
 
-        notificationBuilder.setContentTitle("New Title")
-        notificationBuilder.setContentText("New Text")
+        notificationBuilder.setContentTitle("Notifikasi Gempa !!!")
+        notificationBuilder.setContentText("Sedang Terjadi Gempa")
         notificationBuilder.setContentIntent(pendingIntent)
 
         notification = notificationBuilder.build()
